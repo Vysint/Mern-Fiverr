@@ -8,20 +8,22 @@ const Gig = () => {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">FIVERR > GRAPHICS & DESIGN > </span>
+          <span className="breadcrumbs">Fiverr > Graphics & Design ></span>
           <h1>I will create ai generated art for you</h1>
           <div className="user">
             <img
+              className="pp"
               src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
-            <span>John Doe</span>
+            <span>Anna Bell</span>
             <div className="stars">
               <img src="/img/star.png" alt="" />
               <img src="/img/star.png" alt="" />
               <img src="/img/star.png" alt="" />
               <img src="/img/star.png" alt="" />
               <img src="/img/star.png" alt="" />
+              <span>5</span>
             </div>
           </div>
           <Slider slidesToShow={1} arrowsScroll={1} className="slider">
@@ -62,7 +64,7 @@ const Gig = () => {
                 alt=""
               />
               <div className="info">
-                <span>John Doe</span>
+                <span>Anna Bell</span>
                 <div className="stars">
                   <img src="/img/star.png" alt="" />
                   <img src="/img/star.png" alt="" />
@@ -111,9 +113,9 @@ const Gig = () => {
             <div className="item">
               <div className="user">
                 <img
+                  className="pp"
                   src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   alt=""
-                  className="pp"
                 />
                 <div className="info">
                   <span>Garner David</span>
@@ -147,16 +149,16 @@ const Gig = () => {
                 <img src="/img/like.png" alt="" />
                 <span>Yes</span>
                 <img src="/img/dislike.png" alt="" />
-                <span>no</span>
+                <span>No</span>
               </div>
             </div>
             <hr />
             <div className="item">
               <div className="user">
                 <img
+                  className="pp"
                   src="https://images.pexels.com/photos/4124367/pexels-photo-4124367.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   alt=""
-                  className="pp"
                 />
                 <div className="info">
                   <span>Sidney Owen</span>
@@ -200,7 +202,7 @@ const Gig = () => {
                   alt=""
                 />
                 <div className="info">
-                  <span>Lyle Giles</span>
+                  <span>Lyle Giles </span>
                   <div className="country">
                     <img
                       src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png"
@@ -219,11 +221,11 @@ const Gig = () => {
                 <span>5</span>
               </div>
               <p>
-                Amazing work! Communication was amazing, each and every day he
-                sent me images that I was free to request changes to. They
-                listened, understood, and delivered above and beyond my
-                expectations. I absolutely recommend this gig, and know already
-                that Ill be using it again very very soon
+                Amazing work! Communication was
+                amazing, each and every day he sent me images that I was free to
+                request changes to. They listened, understood, and delivered
+                above and beyond my expectations. I absolutely recommend this
+                gig, and know already that Ill be using it again very very soon
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
@@ -242,7 +244,7 @@ const Gig = () => {
           </div>
           <p>
             I will create a unique high quality AI generated image based on a
-            description that you give me.
+            description that you give me
           </p>
           <div className="details">
             <div className="item">
@@ -257,19 +259,19 @@ const Gig = () => {
           <div className="features">
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Prompt Writing</span>
+              <span>Prompt writing</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Artwork Delivery</span>
+              <span>Artwork delivery</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Image Upscaling</span>
+              <span>Image upscaling</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Additional Design</span>
+              <span>Additional design</span>
             </div>
           </div>
           <button>Continue</button>
